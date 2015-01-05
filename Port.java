@@ -950,5 +950,14 @@ public class Port extends World
         ContainerBlauw containerblauw4 = new ContainerBlauw();
         addObject(containerblauw4, 525, 114);
         removeObject(containerblauw4);
+        removeObject(spoorwegrechtdoor4);
+        removeObject(autowegvanlinks);
+        AutowegRechterzijde autowegrechterzijde = new AutowegRechterzijde();
+        addObject(autowegrechterzijde, 873, 115);
+        autowegrechterzijde.setLocation(872, 115);
+        SpoorwegLang spoorweglang = new SpoorwegLang();
+        addObject(spoorweglang, 183, 141);
+        spoorweglang.setLocation(180, 142);
+        spoorweglang.setLocation(178, 142);
     }
 }

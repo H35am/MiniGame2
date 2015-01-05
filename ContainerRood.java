@@ -13,7 +13,22 @@ public class ContainerRood extends Cargo
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
-    {
-        // Add your action code here.
-    }    
-}
+        { 
+        // Drag the ContainerRood
+        if(Greenfoot.mouseDragged(this)) {
+            MouseInfo mouse = Greenfoot.getMouseInfo();
+            setLocation(mouse.getX(), mouse.getY());             
+        }
+         
+        // Check if the drag has ended.
+        if(Greenfoot.mouseDragEnded(this)) {
+            if(getOneIntersectingObject(VrachtwagenRood.class) != null) {
+                setLocation(117, 297);
+            } 
+            else { 
+                setLocation(255, 389);
+            }
+        }        
+    }   
+}    
+
