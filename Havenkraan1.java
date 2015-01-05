@@ -15,5 +15,24 @@ public class Havenkraan1 extends Kraan
     public void act() 
     {
         // Add your action code here.
+        //move(0);// dit willen we wellicht niet, dus event weer ongedaan maken (geen besturing kraan)
+        /**if (Greenfoot.isKeyDown("up")){
+
+            int x = getX();
+            int y=  getY();
+            int ny = getY()-1;
+
+            setLocation(x, ny);
+
+        }
+        if (Greenfoot.isKeyDown("down")){
+
+            int x = getX();
+            int y = getY();
+            int ny = getY()+1;
+
+            setLocation (x, ny);
+        }  
+        */
     }    
 }

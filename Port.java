@@ -938,6 +938,10 @@ public class Port extends World
         containergroen2.setLocation(789, 599);
         containergroen2.setLocation(789, 599);
         containergroen.setLocation(828, 709);
+        TreinRood treinrood = new TreinRood(); //thomas
+        addObject (treinrood, 179, 77); //thomas
+        Havenkraan1 havenkraan = new Havenkraan1(); //thomas
+        addObject (havenkraan, 230, 545);//thomas
         removeObject(containergroen);
         removeObject(containergroen2);
         ContainerGroen containergroen3 = new ContainerGroen();

@@ -1,12 +1,22 @@
 #Greenfoot properties
+<<<<<<< Updated upstream
 #Mon Jan 05 13:29:47 CET 2015
 target24.type=ClassTarget
 target16.name=VrachtwagenBlauw
+=======
+#Mon Jan 05 13:32:31 CET 2015
+target24.type=ClassTarget
+target16.name=VrachtschipLeegCPU
+>>>>>>> Stashed changes
 target13.editor.width=900
 class.Kade.superclass=greenfoot.Actor
 target11.typeParameters=
 target9.editor.height=700
+<<<<<<< Updated upstream
 target10.width=110
+=======
+target10.width=160
+>>>>>>> Stashed changes
 target36.height=50
 target26.editor.width=900
 target34.showInterface=false
@@ -14,6 +24,7 @@ target12.editor.height=700
 target21.typeParameters=
 target36.type=ClassTarget
 target17.showInterface=false
+<<<<<<< Updated upstream
 target15.editor.y=20
 target15.editor.x=40
 target11.type=ClassTarget
@@ -27,19 +38,42 @@ target31.height=50
 target31.showInterface=false
 target31.y=130
 target31.x=10
+=======
+target15.editor.y=23
+target15.editor.x=55
+target11.type=ClassTarget
+target30.name=Port
+class.TreinWit.superclass=Treinen
+target6.editor.height=700
+target17.typeParameters=
+target6.name=Infrastructuur
+target37.width=100
+target31.height=50
+target31.showInterface=false
+target31.y=910
+target31.x=130
+>>>>>>> Stashed changes
 target3.naviview.expanded=true
 target14.showInterface=false
 target26.editor.y=20
 target26.editor.x=40
+<<<<<<< Updated upstream
 target32.width=140
 class.SpoorwegVanafRechts.superclass=Spoorweg
 target3.editor.height=700
 mainWindow.width=1456
 target38.editor.height=700
+=======
+target32.width=80
+class.SpoorwegVanafRechts.superclass=Spoorweg
+target3.editor.height=700
+mainWindow.width=1385
+>>>>>>> Stashed changes
 target8.showInterface=false
 target1.typeParameters=
 target1.type=ClassTarget
 class.TreinGeel.image=TreinGeel.png
+<<<<<<< Updated upstream
 target28.y=370
 target15.typeParameters=
 target28.x=10
@@ -51,16 +85,34 @@ target8.editor.x=40
 target20.y=970
 target11.showInterface=false
 target20.x=160
+=======
+target28.y=70
+target15.typeParameters=
+target28.x=160
+target25.type=ClassTarget
+target17.name=TreinBlauw
+target8.editor.y=20
+class.TreinGeel.superclass=Treinen
+target8.editor.x=40
+target20.y=550
+target11.showInterface=false
+target20.x=150
+>>>>>>> Stashed changes
 target37.editor.y=20
 class.TreinWit.image=TreinWit.png
 target37.editor.x=40
 class.VrachtwagenBlauw.superclass=Vrachtwagens
 target20.editor.y=20
+<<<<<<< Updated upstream
+=======
+dependency16.to=ContainerRood
+>>>>>>> Stashed changes
 target20.editor.x=40
 target25.typeParameters=
 class.SpoorwegVanafRechts.image=Spoorweg Rechterzijde.png
 dependency5.to=Kraan
 target19.height=50
+<<<<<<< Updated upstream
 target4.y=490
 target23.width=80
 target5.editor.width=900
@@ -80,6 +132,27 @@ target31.editor.x=40
 target7.name=ContainerRood
 target14.width=110
 target2.width=80
+=======
+target4.y=190
+target23.width=110
+target5.editor.width=900
+target4.x=170
+target5.showInterface=false
+target26.editor.height=700
+target18.width=130
+class.VrachtwagenBlauw.image=VrachtwagenBlauw.png
+target31.editor.width=900
+target17.y=430
+target17.x=190
+target37.type=ClassTarget
+target12.type=ClassTarget
+target31.name=AutowegLang
+target31.editor.y=23
+target31.editor.x=47
+target14.width=80
+target7.name=Voertuigen
+target2.width=110
+>>>>>>> Stashed changes
 dependency11.to=ContainerRood
 target14.height=50
 target2.showInterface=false
@@ -87,7 +160,11 @@ target23.editor.height=700
 target23.typeParameters=
 target37.showInterface=false
 target28.showInterface=false
+<<<<<<< Updated upstream
 package.numTargets=38
+=======
+package.numTargets=37
+>>>>>>> Stashed changes
 target5.typeParameters=
 target19.typeParameters=
 target14.editor.width=900
@@ -104,25 +181,40 @@ target27.editor.width=900
 class.SpoorwegLang.superclass=Spoorweg
 target26.type=ClassTarget
 dependency1.type=UsesDependency
+<<<<<<< Updated upstream
 target18.name=SpoorwegVanafRechts
 target34.y=490
 target34.x=130
 target20.name=VrachtwagenWit
+=======
+target18.name=AutowegRechtdoor
+target34.y=550
+target34.x=10
+target20.name=VrachtschipLeeg
+>>>>>>> Stashed changes
 target3.typeParameters=
 target35.height=50
 target19.editor.y=20
 target19.editor.x=40
+<<<<<<< Updated upstream
 target36.width=80
+=======
+target36.width=100
+>>>>>>> Stashed changes
 target8.height=50
 target31.typeParameters=
 target22.showInterface=false
 target14.editor.y=20
+<<<<<<< Updated upstream
 target38.type=ClassTarget
+=======
+>>>>>>> Stashed changes
 target14.editor.x=40
 target13.type=ClassTarget
 class.VrachtwagenWit.image=VrachtwagenWit.png
 target27.typeParameters=
 world.lastInstantiated=Port
+<<<<<<< Updated upstream
 target23.y=430
 target23.x=100
 target32.name=AutowegLinkerzijde
@@ -133,23 +225,45 @@ class.AutowegLinkerzijde.image=AutowegLinkerzijde.png
 target7.y=1090
 target27.width=80
 target7.x=10
+=======
+target23.y=1030
+target23.x=100
+target32.name=TreinGeel
+target9.typeParameters=
+target27.height=50
+target8.name=Cargo
+class.AutowegLinkerzijde.image=AutowegLinkerzijde.png
+target7.y=10
+target27.width=80
+target7.x=160
+>>>>>>> Stashed changes
 target30.height=50
 target29.editor.height=700
 target3.height=50
 class.AutowegRechtdoor.superclass=Autoweg
 dependency10.type=UsesDependency
+<<<<<<< Updated upstream
 target25.editor.y=20
 target25.editor.x=40
 target36.naviview.expanded=true
 target26.naviview.expanded=true
 class.VrachtwagenGeel.image=VrachtwagenGeel.png
 target12.y=1150
+=======
+target25.editor.y=23
+target25.editor.x=46
+target36.naviview.expanded=true
+target26.naviview.expanded=true
+class.VrachtwagenGeel.image=VrachtwagenGeel.png
+target12.y=190
+>>>>>>> Stashed changes
 target12.x=10
 target20.editor.width=900
 target3.type=ClassTarget
 target22.height=50
 target6.editor.width=900
 class.AutowegLinkerzijde.superclass=Autoweg
+<<<<<<< Updated upstream
 target6.width=90
 target7.typeParameters=
 target17.editor.height=700
@@ -162,20 +276,43 @@ target36.editor.y=20
 target32.editor.width=900
 target19.name=VrachtschipLeeg
 target36.editor.x=40
+=======
+target6.width=100
+target17.editor.height=700
+target7.typeParameters=
+target7.editor.width=900
+target7.editor.y=20
+target27.type=ClassTarget
+dependency2.type=UsesDependency
+target7.editor.x=40
+target36.editor.y=23
+target32.editor.width=900
+target19.name=Treinen
+target36.editor.x=47
+>>>>>>> Stashed changes
 target35.typeParameters=
 class.ContainerRood.image=ContainerRood.png
 target33.editor.width=900
 class.TreinBlauw.image=TreinBlauw.png
+<<<<<<< Updated upstream
 target21.name=TreinGroen
 target2.editor.y=20
 target2.editor.x=40
 target18.height=50
 target13.width=80
+=======
+target21.name=AutowegVanLinks
+target2.editor.y=20
+target2.editor.x=40
+target18.height=50
+target13.width=140
+>>>>>>> Stashed changes
 dependency1.from=Port
 dependency7.to=Havenkraan1
 target14.editor.height=700
 target19.showInterface=false
 target14.type=ClassTarget
+<<<<<<< Updated upstream
 target30.editor.y=20
 target30.editor.x=40
 target37.y=70
@@ -185,6 +322,18 @@ target24.naviview.expanded=true
 target34.naviview.expanded=true
 target33.typeParameters=
 target9.name=AutowegLang
+=======
+target30.editor.y=73
+target30.editor.x=218
+target37.y=850
+target33.name=VrachtwagenBlauw
+target37.x=120
+target24.naviview.expanded=true
+target14.naviview.expanded=true
+target34.naviview.expanded=true
+target33.typeParameters=
+target9.name=VrachtwagenWit
+>>>>>>> Stashed changes
 target15.editor.width=900
 target13.height=50
 target16.editor.width=900
@@ -198,9 +347,14 @@ dependency2.to=SpoorwegRechtdoor
 target28.editor.width=900
 class.SpoorwegVanafLinks.superclass=Spoorweg
 target29.editor.width=900
+<<<<<<< Updated upstream
 class.AutowegRechterzijde.image=AutowegRechterzijde2.png
 target26.y=850
 target26.x=120
+=======
+target26.y=370
+target26.x=160
+>>>>>>> Stashed changes
 class.VrachtwagenRood.image=VrachtwagenRood.png
 dependency10.from=Port
 class.Treinen.superclass=Voertuigen
@@ -210,6 +364,7 @@ class.Kraan.superclass=greenfoot.Actor
 target28.type=ClassTarget
 dependency3.type=UsesDependency
 target13.showInterface=false
+<<<<<<< Updated upstream
 target2.y=250
 target2.x=180
 class.ContainerGroen.superclass=Cargo
@@ -231,12 +386,37 @@ class.Infrastructuur.superclass=greenfoot.Actor
 class.ContainerBlauw.image=ContainerBlauw.png
 target13.editor.y=20
 target13.editor.x=40
+=======
+target2.y=1090
+target2.x=130
+class.ContainerGroen.superclass=Cargo
+target22.name=SpoorwegLang
+target31.width=100
+target18.editor.y=23
+target2.editor.height=700
+target18.editor.x=47
+target34.height=50
+target15.y=430
+target15.x=100
+target37.editor.height=700
+dependency2.from=Port
+target26.width=90
+target7.height=50
+target32.naviview.expanded=true
+target22.naviview.expanded=true
+target12.naviview.expanded=true
+class.Infrastructuur.superclass=greenfoot.Actor
+class.ContainerBlauw.image=ContainerBlauw.png
+target13.editor.y=23
+target13.editor.x=47
+>>>>>>> Stashed changes
 target37.typeParameters=
 target15.type=ClassTarget
 class.VrachtschipLeeg.superclass=Vrachtschip
 target10.showInterface=false
 target6.naviview.expanded=true
 target16.naviview.expanded=true
+<<<<<<< Updated upstream
 target34.name=VrachtwagenGroen
 target29.editor.y=20
 version=2.6.0
@@ -248,6 +428,19 @@ target4.showInterface=false
 target17.width=130
 class.TreinRood.superclass=Treinen
 target5.width=80
+=======
+target34.name=VrachtwagenGeel
+target29.editor.y=20
+version=2.6.0
+target29.editor.x=40
+target22.width=110
+target26.height=50
+target34.editor.height=700
+target4.showInterface=false
+target17.width=90
+class.TreinRood.superclass=Treinen
+target5.width=110
+>>>>>>> Stashed changes
 target21.editor.width=900
 target2.height=50
 dependency12.type=UsesDependency
@@ -261,9 +454,15 @@ target5.type=ClassTarget
 class.Autoweg.superclass=Infrastructuur
 target31.editor.height=700
 target1.width=80
+<<<<<<< Updated upstream
 target32.y=670
 target1.showInterface=false
 target32.x=100
+=======
+target32.y=430
+target1.showInterface=false
+target32.x=10
+>>>>>>> Stashed changes
 target21.height=50
 target36.showInterface=false
 target6.editor.y=20
@@ -275,6 +474,7 @@ target20.naviview.expanded=true
 target29.type=ClassTarget
 target35.editor.x=40
 dependency4.type=UsesDependency
+<<<<<<< Updated upstream
 target23.name=TreinRood
 target1.editor.y=-8
 target1.editor.x=-8
@@ -288,31 +488,67 @@ dependency3.from=Port
 target21.y=370
 target33.showInterface=false
 target21.x=160
+=======
+target23.name=ContainerBlauw
+target1.editor.y=20
+target1.editor.x=40
+target4.naviview.expanded=true
+simulation.speed=62
+target8.editor.height=700
+target10.typeParameters=
+target29.y=1150
+target29.x=10
+target17.height=50
+dependency3.from=Port
+target21.y=310
+target33.showInterface=false
+target21.x=150
+>>>>>>> Stashed changes
 target8.naviview.expanded=true
 target17.editor.width=900
 target16.type=ClassTarget
 dependency9.to=VrachtschipLeegCPU
 class.SpoorwegLang.image=Spoorweg.png
+<<<<<<< Updated upstream
 target35.name=AutowegRechterzijde
 target5.y=10
 target5.x=70
 class.VrachtschipLeegCPU.image=VrachtschipLeegCPU.png
 target10.name=SpoorwegLang
+=======
+target35.name=SpoorwegRechtdoor
+target5.y=1090
+target5.x=10
+class.VrachtschipLeegCPU.image=VrachtschipLeegCPU.png
+target10.name=SpoorwegVanafRechts
+>>>>>>> Stashed changes
 class.VrachtwagenRood.superclass=Vrachtwagens
 class.VrachtwagenGroen.image=VrachtwagenGroen.png
 class.Port.superclass=greenfoot.World
 target5.editor.height=700
+<<<<<<< Updated upstream
 target35.width=150
 target18.y=250
+=======
+target35.width=140
+target18.y=310
+>>>>>>> Stashed changes
 target18.x=10
 target12.height=50
 class.TreinGroen.image=TreinGroen.png
 dependency13.type=UsesDependency
 target30.showInterface=false
+<<<<<<< Updated upstream
 target10.y=910
 target10.x=10
 class.SpoorwegRechtdoor.image=SpoorwegRechtdoor.png
 dependency15.to=SpoorwegLang
+=======
+target10.y=250
+target10.x=10
+class.SpoorwegRechtdoor.image=SpoorwegRechtdoor.png
+dependency15.to=Havenkraan1
+>>>>>>> Stashed changes
 target30.type=ClassTarget
 dependency4.to=SpoorwegVanafRechts
 dependency12.from=Port
@@ -320,6 +556,7 @@ target6.type=ClassTarget
 target7.showInterface=false
 class.AutowegVanLinks.image=Autoweg Linkerzijde.png
 target28.editor.height=700
+<<<<<<< Updated upstream
 target9.width=100
 dependency5.type=UsesDependency
 target14.typeParameters=
@@ -348,6 +585,36 @@ target9.editor.width=900
 class.VrachtschipLeegCPU.superclass=Vrachtschip
 target12.width=100
 target35.editor.width=0
+=======
+target9.width=120
+dependency5.type=UsesDependency
+target14.typeParameters=
+target24.name=Vrachtwagens
+target17.editor.y=20
+target17.editor.x=40
+class.ContainerBlauw.superclass=Cargo
+target21.width=130
+dependency10.to=ContainerBlauw
+dependency4.from=Port
+target33.height=50
+target16.width=150
+target6.height=50
+target12.editor.y=20
+target12.editor.x=40
+target25.editor.height=700
+target35.y=130
+target35.x=120
+target17.type=ClassTarget
+target22.editor.width=900
+target36.name=Havenkraan1
+class.ContainerGeel.superclass=Cargo
+target11.name=VrachtwagenRood
+target12.typeParameters=
+target9.editor.width=900
+class.VrachtschipLeegCPU.superclass=Vrachtschip
+target12.width=150
+target35.editor.width=900
+>>>>>>> Stashed changes
 target25.height=50
 target23.editor.y=20
 target23.editor.x=40
@@ -356,6 +623,7 @@ dependency14.type=UsesDependency
 target1.height=50
 target22.typeParameters=
 target27.showInterface=false
+<<<<<<< Updated upstream
 target24.y=550
 target24.x=10
 target31.type=ClassTarget
@@ -363,6 +631,15 @@ target4.typeParameters=
 target8.y=430
 target18.typeParameters=
 target8.x=190
+=======
+target24.y=490
+target24.x=10
+target31.type=ClassTarget
+target4.typeParameters=
+target8.y=670
+target18.typeParameters=
+target8.x=10
+>>>>>>> Stashed changes
 dependency13.from=Port
 target7.type=ClassTarget
 target5.editor.y=20
@@ -370,26 +647,41 @@ target5.editor.x=40
 target34.editor.y=20
 target20.height=50
 target34.editor.x=40
+<<<<<<< Updated upstream
 target1.name=Cargo
+=======
+target1.name=Spoorweg
+>>>>>>> Stashed changes
 dependency6.type=UsesDependency
 target10.editor.height=700
 class.TreinGroen.superclass=Treinen
 target24.showInterface=false
 class.Havenkraan2.image=Kraan2.png
+<<<<<<< Updated upstream
 target13.y=190
 target13.x=170
 target25.name=Havenkraan1
+=======
+target13.y=370
+target13.x=10
+target25.name=AutowegLinkerzijde
+>>>>>>> Stashed changes
 target18.editor.width=900
 target20.typeParameters=
 target34.width=130
 dependency5.from=Port
 target2.typeParameters=
 target16.typeParameters=
+<<<<<<< Updated upstream
 target1.editor.width=1456
+=======
+target1.editor.width=900
+>>>>>>> Stashed changes
 target30.typeParameters=
 class.Havenkraan1.superclass=Kraan
 target18.type=ClassTarget
 target21.showInterface=false
+<<<<<<< Updated upstream
 target37.name=Vrachtschip
 target20.type=ClassTarget
 target12.name=ContainerGeel
@@ -399,14 +691,29 @@ target38.height=50
 target36.editor.height=700
 class.Havenkraan2.superclass=Kraan
 target25.width=100
+=======
+target37.name=Havenkraan2
+target20.type=ClassTarget
+target12.name=SpoorwegVanafLinks
+target26.typeParameters=
+target30.width=80
+target36.editor.height=700
+class.Havenkraan2.superclass=Kraan
+target25.width=140
+>>>>>>> Stashed changes
 target8.typeParameters=
 dependency15.type=UsesDependency
 class.AutowegVanRechts.superclass=Autoweg
 target19.editor.height=700
+<<<<<<< Updated upstream
 target38.y=610
 target38.x=10
 target32.type=ClassTarget
 target30.y=70
+=======
+target32.type=ClassTarget
+target30.y=10
+>>>>>>> Stashed changes
 target30.x=70
 dependency14.from=Port
 target8.type=ClassTarget
@@ -414,18 +721,31 @@ dependency6.to=AutowegLinkerzijde
 target33.editor.height=700
 target10.editor.width=900
 target24.typeParameters=
+<<<<<<< Updated upstream
 target4.width=110
 target11.editor.width=900
 class.Vrachtwagens.superclass=Voertuigen
 target38.showInterface=false
 target2.name=Treinen
+=======
+target4.width=80
+target11.editor.width=900
+class.Vrachtwagens.superclass=Voertuigen
+target2.name=ContainerGroen
+>>>>>>> Stashed changes
 dependency7.type=UsesDependency
 target16.editor.height=700
 class.VrachtschipLeeg.image=VrachtschipLeeg.png
 target6.typeParameters=
+<<<<<<< Updated upstream
 target26.name=Havenkraan2
 target27.y=610
 target27.x=180
+=======
+target26.name=TreinGroen
+target27.y=1030
+target27.x=10
+>>>>>>> Stashed changes
 target23.editor.width=900
 target34.typeParameters=
 target29.naviview.expanded=true
@@ -442,8 +762,13 @@ target5.height=50
 target36.editor.width=900
 target35.showInterface=false
 dependency12.to=ContainerGroen
+<<<<<<< Updated upstream
 target3.y=790
 target3.x=120
+=======
+target3.y=490
+target3.x=130
+>>>>>>> Stashed changes
 class.Vrachtschip.superclass=Voertuigen
 target19.type=ClassTarget
 target13.editor.height=700
@@ -451,6 +776,7 @@ dependency1.to=AutowegVanLinks
 target37.editor.width=900
 target18.showInterface=false
 class.AutowegVanRechts.image=Autoweg Rechterzijde.png
+<<<<<<< Updated upstream
 target38.name=VrachtwagenRood
 target21.type=ClassTarget
 mainWindow.y=-8
@@ -466,16 +792,40 @@ target22.editor.y=101
 target22.editor.x=612
 target24.height=50
 target38.width=130
+=======
+target21.type=ClassTarget
+mainWindow.y=24
+target13.name=AutowegVanRechts
+mainWindow.x=55
+target16.y=790
+target16.x=120
+class.SpoorwegVanafLinks.image=Spoorweg Linkerzijde.png
+class.ContainerGroen.image=ContainerGroen.png
+target7.editor.height=700
+target32.typeParameters=
+target22.editor.y=20
+target22.editor.x=40
+target24.height=50
+dependency16.type=UsesDependency
+>>>>>>> Stashed changes
 target32.showInterface=false
 target33.naviview.expanded=true
 target28.typeParameters=
 target15.showInterface=false
 target33.type=ClassTarget
 target19.editor.width=900
+<<<<<<< Updated upstream
 dependency15.from=Port
 class.VrachtwagenWit.superclass=Vrachtwagens
 target9.type=ClassTarget
 target4.editor.height=700
+=======
+dependency15.from=TreinRood
+class.VrachtwagenWit.superclass=Vrachtwagens
+target9.type=ClassTarget
+target4.editor.height=700
+target37.naviview.expanded=true
+>>>>>>> Stashed changes
 target4.editor.y=20
 target27.naviview.expanded=true
 target17.naviview.expanded=true
@@ -484,6 +834,7 @@ target33.editor.y=20
 target16.height=50
 target33.editor.x=40
 target9.showInterface=false
+<<<<<<< Updated upstream
 target38.typeParameters=
 target3.name=VrachtschipLeegCPU
 target29.width=110
@@ -498,19 +849,42 @@ target33.x=10
 dependency7.from=Port
 target1.editor.height=876
 target24.width=130
+=======
+target3.name=VrachtwagenGroen
+target29.width=100
+dependency8.type=UsesDependency
+target2.editor.width=900
+target27.name=TreinWit
+target3.editor.width=900
+target12.showInterface=false
+class.TreinBlauw.superclass=Treinen
+target33.y=970
+target33.x=10
+dependency7.from=Port
+target1.editor.height=700
+target24.width=110
+>>>>>>> Stashed changes
 target6.showInterface=false
 target27.editor.height=700
 target11.height=50
 class.Spoorweg.superclass=Infrastructuur
+<<<<<<< Updated upstream
 target8.width=90
 target36.typeParameters=
 target22.type=ClassTarget
 target14.name=ContainerGroen
+=======
+target8.width=80
+target36.typeParameters=
+target22.type=ClassTarget
+target14.name=Kraan
+>>>>>>> Stashed changes
 class.Voertuigen.superclass=greenfoot.Actor
 target31.naviview.expanded=true
 target21.naviview.expanded=true
 target20.width=120
 target37.height=50
+<<<<<<< Updated upstream
 target22.y=1030
 target22.x=10
 target15.width=140
@@ -524,10 +898,27 @@ target6.y=10
 target12.editor.width=900
 target6.x=160
 package.numDependencies=15
+=======
+target22.y=910
+target22.x=10
+target15.width=80
+target3.showInterface=false
+target24.editor.height=700
+class.AutowegLang.superclass=Autoweg
+target15.naviview.expanded=true
+target35.naviview.expanded=true
+target25.naviview.expanded=true
+target29.showInterface=false
+target6.y=130
+target12.editor.width=900
+target6.x=10
+package.numDependencies=16
+>>>>>>> Stashed changes
 target34.type=ClassTarget
 target16.editor.y=20
 target16.editor.x=40
 target9.naviview.expanded=true
+<<<<<<< Updated upstream
 target19.naviview.expanded=true
 target19.y=550
 target19.x=150
@@ -536,18 +927,36 @@ target25.editor.width=900
 target32.height=50
 target11.y=310
 target4.name=Vrachtwagens
+=======
+dependency16.from=TreinRood
+target19.naviview.expanded=true
+target19.y=250
+target19.x=180
+target9.height=50
+target25.editor.width=900
+target32.height=50
+target11.y=610
+target4.name=Autoweg
+>>>>>>> Stashed changes
 target11.x=10
 dependency9.type=UsesDependency
 target21.editor.height=700
 class.ContainerRood.superclass=Cargo
 dependency8.to=VrachtschipLeeg
 target26.showInterface=false
+<<<<<<< Updated upstream
 target28.name=AutowegVanRechts
 target38.editor.width=900
 target27.editor.y=20
 class.AutowegRechterzijde.superclass=Autoweg
 target27.editor.x=40
 mainWindow.height=876
+=======
+target28.name=Vrachtschip
+target27.editor.y=101
+target27.editor.x=612
+mainWindow.height=788
+>>>>>>> Stashed changes
 dependency8.from=Port
 target10.editor.y=20
 target28.height=50
@@ -558,6 +967,7 @@ class.VrachtwagenGroen.superclass=Vrachtwagens
 class.Havenkraan1.image=Kraan1.png
 target23.naviview.expanded=true
 target13.naviview.expanded=true
+<<<<<<< Updated upstream
 dependency14.to=AutowegRechterzijde
 target23.type=ClassTarget
 target15.name=SpoorwegRechtdoor
@@ -574,6 +984,22 @@ target36.y=430
 target36.x=10
 target23.height=50
 target28.width=140
+=======
+dependency14.to=TreinRood
+target23.type=ClassTarget
+target15.name=TreinRood
+dependency3.to=SpoorwegVanafLinks
+target9.editor.y=20
+target9.editor.x=40
+target21.editor.y=200
+target21.editor.x=85
+target7.naviview.expanded=true
+target33.width=140
+target36.y=850
+target36.x=10
+target23.height=50
+target28.width=90
+>>>>>>> Stashed changes
 project.charset=UTF-8
 target20.showInterface=false
 target35.type=ClassTarget
@@ -585,6 +1011,7 @@ target3.editor.y=20
 target3.editor.x=40
 target32.editor.y=20
 target32.editor.x=40
+<<<<<<< Updated upstream
 target35.editor.height=0
 target30.editor.width=900
 target15.height=50
@@ -610,4 +1037,31 @@ target5.naviview.expanded=true
 target14.y=1090
 target10.height=50
 target14.x=130
+=======
+target35.editor.height=700
+target30.editor.width=900
+target15.height=50
+target5.name=ContainerRood
+target25.y=670
+target25.x=100
+target19.width=80
+target7.width=90
+target18.editor.height=700
+class.Cargo.superclass=greenfoot.Actor
+target29.name=ContainerGeel
+target13.typeParameters=
+target9.y=970
+target9.x=160
+target1.naviview.expanded=true
+target11.naviview.expanded=true
+target1.y=70
+dependency9.from=Port
+target1.x=70
+target32.editor.height=700
+target3.width=130
+target5.naviview.expanded=true
+target14.y=610
+target10.height=50
+target14.x=180
+>>>>>>> Stashed changes
 target15.editor.height=700

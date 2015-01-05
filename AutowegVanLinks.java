@@ -12,8 +12,8 @@ public class AutowegVanLinks extends Autoweg
      * Act - do whatever the AutowegVanLinks wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public void act() // outcomment
     {
-         setRotation(getRotation() + (90));// Add your action code here.
+         //setRotation(getRotation() + (90));// Add your action code here.
     }    
 }
