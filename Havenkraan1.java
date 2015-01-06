@@ -34,5 +34,5 @@ public class Havenkraan1 extends Kraan
             setLocation (x, ny);
         }  
         */
-    }    
+    }     
 }

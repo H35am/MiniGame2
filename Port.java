@@ -27,25 +27,6 @@ public class Port extends World
      */
     private void prepare()
     {
-        Kraan kraan = new Kraan();
-        addObject(kraan, 237, 265);
-        kraan.setLocation(218, 269);
-        Kraan kraan2 = new Kraan();
-        addObject(kraan2, 682, 179);
-        kraan2.setRotation(180);
-        kraan2.setLocation(638, 140);
-        kraan.setLocation(216, 250);
-        removeObject(kraan2);
-        removeObject(kraan);
-        Kraan kraan3 = new Kraan();
-        addObject(kraan3, 225, 317);
-        Kraan kraan4 = new Kraan();
-        addObject(kraan4, 731, 231);
-        kraan4.act();
-        kraan4.act();
-        kraan4.setLocation(652, 184);
-        removeObject(kraan3);
-        removeObject(kraan4);
         AutowegVanLinks autowegvanlinks = new AutowegVanLinks();
         addObject(autowegvanlinks, 713, 100);
         AutowegVanLinks autowegvanlinks2 = new AutowegVanLinks();
@@ -703,16 +684,6 @@ public class Port extends World
         removeObject(spoorwegvanafrechts);
         SpoorwegVanafLinks spoorwegvanaflinks2 = new SpoorwegVanafLinks();
         addObject(spoorwegvanaflinks2, 791, 38);
-        Kraan kraan5 = new Kraan();
-        addObject(kraan5, 243, 315);
-        kraan5.setLocation(234, 311);
-        Kraan kraan6 = new Kraan();
-        addObject(kraan6, 797, 207);
-        kraan6.act();
-        kraan6.act();
-        kraan6.setLocation(650, 113);
-        kraan6.move(2);
-        kraan6.setLocation(649, 113);
         spoorwegvanaflinks2.setLocation(791, 39);
         spoorwegvanaflinks2.setLocation(782, 31);
         spoorwegvanaflinks2.setLocation(776, 32);
@@ -729,13 +700,7 @@ public class Port extends World
         addObject(spoorwegrechtdoor3, 465, 329);
         spoorwegrechtdoor3.setLocation(463, 314);
         spoorwegrechtdoor3.setLocation(463, 315);
-        Havenkraan1 havenkraan1 = new Havenkraan1();
-        addObject(havenkraan1, 234, 283);
-        havenkraan1.setLocation(228, 283);
-        removeObject(havenkraan1);
         removeObject(spoorwegrechtdoor3);
-        removeObject(kraan6);
-        removeObject(kraan5);
         SpoorwegRechtdoor spoorwegrechtdoor4 = new SpoorwegRechtdoor();
         addObject(spoorwegrechtdoor4, 464, 332);
         spoorwegrechtdoor4.setLocation(461, 315);
@@ -940,8 +905,6 @@ public class Port extends World
         containergroen.setLocation(828, 709);
         TreinRood treinrood = new TreinRood(); //thomas
         addObject (treinrood, 179, 77); //thomas
-        Havenkraan1 havenkraan = new Havenkraan1(); //thomas
-        addObject (havenkraan, 230, 545);//thomas
         removeObject(containergroen);
         removeObject(containergroen2);
         ContainerGroen containergroen3 = new ContainerGroen();
@@ -979,14 +942,26 @@ public class Port extends World
         AutowegLang autoweglang = new AutowegLang();
         addObject(autoweglang, 120, 280);
         autoweglang.setLocation(97, 278);
-        Havenkraan1 havenkraan13 = new Havenkraan1();
-        addObject(havenkraan13, 236, 543);
-        havenkraan13.setLocation(228, 526);
         autoweglang.setLocation(111, 278);
         autoweglang.setLocation(114, 341);
         removeObject(autowegvanlinks4);
         AutowegVanLinks autowegvanlinks5 = new AutowegVanLinks();
         addObject(autowegvanlinks5, 723, 168);
         autowegvanlinks5.setLocation(724, 153);
+        autoweglang.setLocation(61, 338);
+        spoorweglang.setLocation(103, 384);
+        spoorweglang.setLocation(176, 385);
+        autoweglang.setLocation(112, 339);
+        autowegvanlinks5.setLocation(718, 127);
+        autowegvanlinks5.setLocation(715, 127);
+        autowegvanlinks5.setLocation(717, 128);
+        autowegvanlinks5.setLocation(727, 127);
+        autowegvanlinks5.setLocation(838, 148);
+        autowegvanlinks5.setLocation(35, 235);
+        autowegvanlinks5.setLocation(722, 160);
+        autowegvanlinks5.setLocation(722, 157);
+        Havenkraan1 havenkraan1 = new Havenkraan1();
+        addObject(havenkraan1, 228, 546);
+        removeObject(havenkraan1);
     }
 }

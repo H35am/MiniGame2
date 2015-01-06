@@ -15,7 +15,7 @@ public class TreinRood extends Treinen
     public void act() 
     {
         // Add your action code here.
-        if (!isTouching(Havenkraan1.class) || isTouching(ContainerRood.class)){
+       if (!isTouching(Havenkraan1.class) || isTouching(ContainerRood.class)){
         move(0);
         
         int x = getX();
