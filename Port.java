@@ -19,14 +19,172 @@ public class Port extends World
         super(900, 818, 1); 
 
         prepare();
+        
+        //loop die loop for x en y
+        int x = 255;
+        int y = 206;
+        
+        for(int i = 0; i<3; i++){
+            
+            for(int j = 0; j<3; j++){
+            spawnContainerDek1(x,y);
+            y += 91;
+            }
+            //reset y 
+            y = 206;
+            x += 50;
+        }
+        //reset x
+        x = 255;
+         for(int i = 0; i<3; i++){
+            
+            for(int j = 0; j<3; j++){
+            spawnContainerDek2(x,y);
+            y += 91;
+            }
+            //reset y 
+            y = 206;
+            x += 50;
+        }
+        //reset x
+        x = 255;
+         for(int i = 0; i<3; i++){
+            
+            for(int j = 0; j<3; j++){
+            spawnContainerDek3(x,y);
+            y += 91;
+            }
+            //reset y 
+            y = 206;
+            x += 50;
+        }
     }
 
     /**
      * Prepare the world for the start of the program. That is: create the initial
      * objects and add them to the world.
      */
+    
+     public void spawnContainerDek2(int x, int y)
+    {   
+        Dek2 containerRoodDek2 = new ContainerRoodDek2();
+        Dek2 containerGeelDek2 = new ContainerGeelDek2();
+        Dek2 containerGroenDek2 = new ContainerGroenDek2();
+        Dek2 containerBlauwDek2 = new ContainerBlauwDek2();
+        
+        //array maken van containers
+        Dek2[] containerArray = new Dek2[4];
+        
+        containerArray[0] = containerRoodDek2;
+        containerArray[1] = containerGeelDek2;
+        containerArray[2] = containerGroenDek2;
+        containerArray[3] = containerBlauwDek2;
+        
+        //de identifier van de containerArray
+        int i;
+        
+        //procent kans aanmaken
+        int precentage = ((int)(Math.random() * 100));
+        
+        if(precentage >= 0 && precentage < 25){
+        // kans tot 25%
+            i=0;
+        } else if (precentage >= 25 && precentage < 50){
+            i=1;
+        } else if (precentage >= 50 && precentage < 75){
+            i=2;
+        } else{
+            i=3;
+        }
+        
+        
+        addObject(containerArray[i], x,y);
+        
+    }
+    
+    
+    
+     public void spawnContainerDek3(int x, int y)
+    {   
+        Dek3 containerRoodDek3 = new ContainerRoodDek3();
+        Dek3 containerGeelDek3 = new ContainerGeelDek3();
+        Dek3 containerGroenDek3 = new ContainerGroenDek3();
+        Dek3 containerBlauwDek3 = new ContainerBlauwDek3();
+        
+        //array maken van containers
+        Dek3[] containerArray = new Dek3[4];
+        
+        containerArray[0] = containerRoodDek3;
+        containerArray[1] = containerGeelDek3;
+        containerArray[2] = containerGroenDek3;
+        containerArray[3] = containerBlauwDek3;
+        
+        //de identifier van de containerArray
+        int i;
+        
+        //procent kans aanmaken
+        int precentage = ((int)(Math.random() * 100));
+        
+        if(precentage >= 0 && precentage < 25){
+        // kans tot 25%
+            i=0;
+        } else if (precentage >= 25 && precentage < 50){
+            i=1;
+        } else if (precentage >= 50 && precentage < 75){
+            i=2;
+        } else{
+            i=3;
+        }
+        
+        
+        addObject(containerArray[i], x,y);
+        
+    }
+    
+    
+     public void spawnContainerDek1(int x, int y)
+    {   
+        Dek1 containerRoodDek1 = new ContainerRoodDek1();
+        Dek1 containerGeelDek1 = new ContainerGeelDek1();
+        Dek1 containerGroenDek1 = new ContainerGroenDek1();
+        Dek1 containerBlauwDek1 = new ContainerBlauwDek1();
+        
+        //array maken van containers
+        Dek1[] containerArray = new Dek1[4];
+        
+        containerArray[0] = containerRoodDek1;
+        containerArray[1] = containerGeelDek1;
+        containerArray[2] = containerGroenDek1;
+        containerArray[3] = containerBlauwDek1;
+        
+        //de identifier van de containerArray
+        int i;
+        
+        //procent kans aanmaken
+        int precentage = ((int)(Math.random() * 100));
+        
+        if(precentage >= 0 && precentage < 25){
+        // kans tot 25%
+            i=0;
+        } else if (precentage >= 25 && precentage < 50){
+            i=1;
+        } else if (precentage >= 50 && precentage < 75){
+            i=2;
+        } else{
+            i=3;
+        }
+        
+        
+        addObject(containerArray[i], x,y);
+        
+    }
+    
+    
+    
+    
     private void prepare()
     {
+        
         AutowegVanLinks autowegvanlinks = new AutowegVanLinks();
         addObject(autowegvanlinks, 713, 100);
         AutowegVanLinks autowegvanlinks2 = new AutowegVanLinks();
@@ -963,5 +1121,7 @@ public class Port extends World
         Havenkraan1 havenkraan1 = new Havenkraan1();
         addObject(havenkraan1, 228, 546);
         removeObject(havenkraan1);
+        removeObject(autowegvanlinks5);
+        
     }
 }

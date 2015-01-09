@@ -46,6 +46,6 @@ public class ContainerBlauwDek3 extends Dek3
      */
     private void reset()
     {
-        setLocation(originalX -6, originalY -4);
+        setLocation(originalX, originalY);
     }
 } 

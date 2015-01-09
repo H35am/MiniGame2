@@ -46,6 +46,6 @@ public class ContainerGroenDek2 extends Dek2
      */
     private void reset()
     {
-        setLocation(originalX -6, originalY -4);
+        setLocation(originalX, originalY);
     }
 } 
