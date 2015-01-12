@@ -31,21 +31,38 @@ public class ContainerGeelDek2 extends Dek2
             MouseInfo mouse = Greenfoot.getMouseInfo();
             setLocation(mouse.getX(), mouse.getY());             
         }
-              
-        // Check if the drag has ended.    
-        if(Greenfoot.mouseDragEnded(this)) {
-           if(getOneIntersectingObject(VrachtwagenGeel.class) != null) 
-                setLocation(113, 386);  
-           else { 
-                reset();  
-                } 
-            }
-    } 
-    /**
-     * Reset the container to its original location.
-     */
-    private void reset()
-    {
-        setLocation(originalX, originalY);
-    }
+        int x = getX();
+        int y = getY();
+        int ny = getY()+1;
+
+        if (isTouching(TreinGeel.class)){
+
+            Actor treingeel= ((Actor) getWorld().getObjects(TreinGeel.class).get(0));
+
+            int treingeelY = treingeel.getY()+1;
+            setLocation(179, 266);
+            setLocation (179, treingeelY - 30);
+        }
+        World world=getWorld();
+        if (getY() == 0 || getY() == 774)//getWorld().getHeight()-1)
+        {
+            getWorld().removeObject(this);
+
+            world.removeObject(this);     
+            /*Check if the drag has ended.   uitgezet Thomas 
+            if(Greenfoot.mouseDragEnded(this)) {
+            if(getOneIntersectingObject(VrachtwagenBlauw.class) != null) 
+            setLocation(113, 386);  
+            else { 
+            reset();  
+            } 
+            }*/
+        } 
+        /**
+         * Reset the container to its original location.
+         
+        private void reset()
+        {
+            setLocation(originalX, originalY);
+        }*/}
 }  

@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+import java.util.List;
 /**
  * Write a description of class Port here.
  * 
@@ -19,6 +20,7 @@ public class Port extends World
         super(900, 818, 1); 
 
         prepare();
+//<<<<<<< Updated upstream
         
         //loop die loop for x en y
         int x = 255;
@@ -58,6 +60,9 @@ public class Port extends World
             y = 206;
             x += 50;
         }
+//=======
+        setPaintOrder(Kraan.class,Cargo.class,Voertuigen.class);
+//>>>>>>> Stashed changes
     }
 
     /**
@@ -1061,8 +1066,11 @@ public class Port extends World
         containergroen2.setLocation(789, 599);
         containergroen2.setLocation(789, 599);
         containergroen.setLocation(828, 709);
+
         TreinRood treinrood = new TreinRood(); //thomas
         addObject (treinrood, 179, 77); //thomas
+
+        
         removeObject(containergroen);
         removeObject(containergroen2);
         ContainerGroen containergroen3 = new ContainerGroen();
@@ -1121,7 +1129,21 @@ public class Port extends World
         Havenkraan1 havenkraan1 = new Havenkraan1();
         addObject(havenkraan1, 228, 546);
         removeObject(havenkraan1);
+//<<<<<<< Updated upstream
         removeObject(autowegvanlinks5);
         
+//=======
+
+        TreinRood treinrood3 = new TreinRood(); //thomas
+        addObject (treinrood3, 179, 77);
+
+        Havenkraan1 havenkraan = new Havenkraan1(); //thomas
+        addObject (havenkraan, 230, 545);//thomas
+
+        
+
+//>>>>>>> Stashed changes
     }
+
+    
 }

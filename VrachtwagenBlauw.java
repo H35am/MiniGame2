@@ -15,5 +15,6 @@ public class VrachtwagenBlauw extends Vrachtwagens
     public void act() 
     {
         // Add your action code here.
+        
     }    
 }

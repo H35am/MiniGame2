@@ -14,6 +14,25 @@ public class Treinen extends Voertuigen
      */
     public void act() 
     {
-        // Add your action code here.
+        /* Add your action code here.
+        move(0);
+
+        int x = getX();
+        int y = getY();
+        int ny = getY()+1;
+
+        setLocation (x, ny);
+        
+        if (getX() <= 5 || getX() >= getWorld() . getWidth() -5)
+        {
+            getWorld().removeObject(this);
+          
+        }
+        if (getY() <= 5 || getY() >= getWorld() . getHeight() -5)
+        {
+            getWorld().removeObject(this);
+          
+        }
+        */
     }    
 }

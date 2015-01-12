@@ -13,22 +13,40 @@ public class ContainerRood extends Cargo
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
-        { 
+    { 
         // Drag the ContainerRood
         if(Greenfoot.mouseDragged(this)) {
             MouseInfo mouse = Greenfoot.getMouseInfo();
             setLocation(mouse.getX(), mouse.getY());             
         }
-         
+
         // Check if the drag has ended.
-        if(Greenfoot.mouseDragEnded(this)) {
-            if(getOneIntersectingObject(VrachtwagenRood.class) != null) {
-                setLocation(117, 297);
-            } 
-            else { 
-                setLocation(255, 389);
-            }
-        }        
+        /*if(Greenfoot.mouseDragEnded(this)) {
+        if(getOneIntersectingObject(TreinRood.class) != null) {
+        setLocation(179, 266);//117, 297
+        } 
+        else { 
+        setLocation(255, 389);
+        }
+        } 
+         */
+        
+
+        //Actor treinrood = ((Actor) getWorld().getObjects(TreinRood.class).get(0));
+        
+        //int treinroodY = treinrood.getY()+1; 
+        int x = getX();
+        int y = getY();
+        int ny = getY()+1;
+
+        if (isTouching(TreinRood.class)){
+            
+            Actor treinrood = ((Actor) getWorld().getObjects(TreinRood.class).get(0));
+            
+            int treinroodY = treinrood.getY()+1;
+            setLocation(179, 266);
+            setLocation (179, treinroodY - 30);
+        }
     }   
 }    
 
