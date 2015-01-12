@@ -25,7 +25,7 @@ public class TreinRood extends Treinen
 
         World world=getWorld();// new
         setLocation (x, ny);
-        if(getY() == 297) {
+        if(getY() == 328) {
            
           setLocation(getX(), getY() - 1);
           

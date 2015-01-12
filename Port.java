@@ -23,8 +23,46 @@ public class Port extends World
 //<<<<<<< Updated upstream
         
         //loop die loop for x en y
+        int v = 512;
+        int w = 102;
         int x = 255;
         int y = 206;
+        
+        //CPU
+        for(int p = 0; p<3; p++){
+            
+            for(int j = 0; j<3; j++){
+            spawnContainerDekCPU1(v,w);
+            w += 91;
+            }
+            //reset w
+            w = 102;
+            v += 50;
+        }
+        //reset v
+        v = 512;
+         for(int p = 0; p<3; p++){
+            
+            for(int j = 0; j<3; j++){
+            spawnContainerDekCPU1(v,w);
+            w += 91;
+            }
+            //reset y 
+            w = 102;
+            v += 50;
+        }
+        //reset v
+        v = 512;
+         for(int p = 0; p<3; p++){
+            
+            for(int j = 0; j<3; j++){
+            spawnContainerDekCPU1(v,w);
+            w += 91;
+            }
+            //reset w 
+            w = 102;
+            v += 50;
+        }
         
         for(int i = 0; i<3; i++){
             
@@ -184,12 +222,50 @@ public class Port extends World
         
     }
     
+    public void spawnContainerDekCPU1(int v, int w)
+    {   
+        DekCPU containerRoodCPU = new ContainerRoodCPU();
+        DekCPU containerGeelCPU = new ContainerGeelCPU();
+        DekCPU containerGroenCPU = new ContainerGroenCPU();
+        DekCPU containerBlauwCPU = new ContainerBlauwCPU();
+        
+        //array maken van containers
+        DekCPU[] containerArray = new DekCPU[4];
+        
+        containerArray[0] = containerRoodCPU;
+        containerArray[1] = containerGeelCPU;
+        containerArray[2] = containerGroenCPU;
+        containerArray[3] = containerBlauwCPU;
+        
+        //de identifier van de containerArray
+        int i;
+        
+        //procent kans aanmaken
+        int precentage = ((int)(Math.random() * 100));
+        
+        if(precentage >= 0 && precentage < 25){
+        // kans tot 25%
+            i=0;
+        } else if (precentage >= 25 && precentage < 50){
+            i=1;
+        } else if (precentage >= 50 && precentage < 75){
+            i=2;
+        } else{
+            i=3;
+        }
+        
+        
+        addObject(containerArray[i], v,w);
+        
+    }
     
     
     
     private void prepare()
     {
-        
+        AutowegVanLinks autowegvanlinks6 = new AutowegVanLinks();
+        addObject(autowegvanlinks6, 722, 165);
+        autowegvanlinks6.setLocation(716, 157);
         AutowegVanLinks autowegvanlinks = new AutowegVanLinks();
         addObject(autowegvanlinks, 713, 100);
         AutowegVanLinks autowegvanlinks2 = new AutowegVanLinks();
@@ -880,11 +956,11 @@ public class Port extends World
         spoorwegrechtdoor4.setLocation(462, 327);
         spoorwegrechtdoor4.setLocation(462, 321);
         spoorwegrechtdoor4.setLocation(462, 312);
+        ContainerRood containerrood = new ContainerRood();
+        addObject(containerrood, 739, 813);
         ContainerBlauw containerblauw = new ContainerBlauw();
         addObject(containerblauw, 696, 815);
         containerblauw.setLocation(687, 815);
-        ContainerRood containerrood = new ContainerRood();
-        addObject(containerrood, 739, 813);
         containerrood.setLocation(739, 813);
         containerrood.setLocation(739, 813);
         containerrood.setLocation(739, 813);
@@ -1014,38 +1090,6 @@ public class Port extends World
         ContainerBlauw containerblauw2 = new ContainerBlauw();
         addObject(containerblauw2, 691, 814);
         containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(691, 814);
-        containerblauw2.setLocation(686, 814);
         containergroen.setLocation(843, 648);
         containergroen2.setLocation(789, 599);
         ContainerBlauw containerblauw3 = new ContainerBlauw();
@@ -1066,11 +1110,9 @@ public class Port extends World
         containergroen2.setLocation(789, 599);
         containergroen2.setLocation(789, 599);
         containergroen.setLocation(828, 709);
-
         TreinRood treinrood = new TreinRood(); //thomas
         addObject (treinrood, 179, 77); //thomas
 
-        
         removeObject(containergroen);
         removeObject(containergroen2);
         ContainerGroen containergroen3 = new ContainerGroen();
@@ -1129,10 +1171,10 @@ public class Port extends World
         Havenkraan1 havenkraan1 = new Havenkraan1();
         addObject(havenkraan1, 228, 546);
         removeObject(havenkraan1);
-//<<<<<<< Updated upstream
+        //<<<<<<< Updated upstream
         removeObject(autowegvanlinks5);
-        
-//=======
+
+        //=======
 
         TreinRood treinrood3 = new TreinRood(); //thomas
         addObject (treinrood3, 179, 77);
@@ -1140,9 +1182,29 @@ public class Port extends World
         Havenkraan1 havenkraan = new Havenkraan1(); //thomas
         addObject (havenkraan, 230, 545);//thomas
 
-        
-
-//>>>>>>> Stashed changes
+        //>>>>>>> Stashed changes
+        OpslagRood opslagrood = new OpslagRood();
+        addObject(opslagrood, 54, 148);
+        opslagrood.setLocation(48, 117);
+        OpslagGroen opslaggroen = new OpslagGroen();
+        addObject(opslaggroen, 55, 226);
+        opslaggroen.setLocation(47, 219);
+        OpslagGeel opslaggeel = new OpslagGeel();
+        addObject(opslaggeel, 53, 322);
+        opslaggeel.setLocation(48, 321);
+        OpslagBlauw opslagblauw = new OpslagBlauw();
+        addObject(opslagblauw, 54, 431);
+        opslagblauw.setLocation(47, 425);
+        opslagblauw.setLocation(47, 436);
+        opslaggeel.setLocation(47, 332);
+        opslaggroen.setLocation(47, 229);
+        opslagrood.setLocation(48, 128);
+        opslagblauw.setLocation(48, 447);
+        opslaggeel.setLocation(49, 347);
+        opslaggeel.setLocation(48, 347);
+        opslaggroen.setLocation(47, 245);
+        opslaggroen.setLocation(48, 246);
+        opslagrood.setLocation(48, 146);
     }
 
     
